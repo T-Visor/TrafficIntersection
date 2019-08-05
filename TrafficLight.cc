@@ -2,7 +2,7 @@
 // Author: Turhan Kimbrough                                                                                        //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include <Txc3.h>
+#include <TrafficLight.h>
 
 void TrafficLight::initialize()
 {
