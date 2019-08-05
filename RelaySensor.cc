@@ -2,7 +2,7 @@
 // Author: Turhan Kimbrough                                                                                        //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#include <Txc2.h>
+#include <RelaySensor.h>
 
 void RelaySensor::handleMessage(cMessage *message)
 {
