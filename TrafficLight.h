@@ -2,8 +2,8 @@
 // Author: Turhan Kimbrough                                                                                        //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#ifndef _TXC3_H
-#define _TXC3_H
+#ifndef _TRAFFICLIGHT_H
+#define _TRAFFICLIGHT_H
 
 #include <iostream>
 #include <sstream>
