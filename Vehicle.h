@@ -2,8 +2,8 @@
 // Author: Turhan Kimbrough                                                                                        //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#ifndef _TXC1_H
-#define _TXC1_H
+#ifndef _VEHICLE_H
+#define _VEHICLE_H
 
 #include <iostream>
 #include <sstream>
