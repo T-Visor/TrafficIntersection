@@ -2,8 +2,8 @@
 // Author: Turhan Kimbrough                                                                                        //
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#ifndef _TXC2_H
-#define _TXC2_H
+#ifndef _RELAYSENSOR_H
+#define _RELAYSENSOR_H
 
 #include <iostream>
 #include <sstream>
