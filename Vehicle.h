@@ -40,7 +40,7 @@ class Vehicle : public cSimpleModule
 
     public:
         /**
-         * Construct a vehicle in its stopped state
+         * Construct a vehile with its speed at 50 mph
          */
         Vehicle();
 };
