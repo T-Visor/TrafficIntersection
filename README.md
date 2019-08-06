@@ -4,4 +4,6 @@ This simulation represents a static model of a V2X (Vehicle to Everything) scena
 ![alt text](https://github.com/T-Visor/TrafficIntersection/blob/master/OMNeT%2B%2B%20screen%20capture.PNG)
 
 # Loading the scenario
-In order for this simulation to work, all files (except for the .png screenshot) will need to be loaded into the OMNeT++ IDE. In the toolbar, click on the 'Project' drop-down menu and select the "Build All" option. Assuming no errors have occurred, now click on the 'Run' drop-down menu and select 'Run As', click on the option for '1 OMNeT++ Simulation' to start the simulation. 
+In order for this simulation to work, all files (except for the .png screenshot) will need to be loaded into the OMNeT++ IDE. In the toolbar, click on the 'Project' drop-down menu and select the "Build All" option. Click on the 'Run' drop-down menu and select 'Run As', then click on the option for '1 OMNeT++ Simulation'. 
+
+# Scenario details
