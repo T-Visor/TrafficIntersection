@@ -18,7 +18,7 @@ simple TrafficLight
         output out[];
 }
 
-network Vanet
+network Intersection
 {
     @display("bgb=500,500,#008000,black;bgi=background/streetmap");
     types:
