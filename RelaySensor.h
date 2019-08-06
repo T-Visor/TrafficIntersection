@@ -18,7 +18,7 @@ class RelaySensor : public cSimpleModule
     protected:
         /**
          * Broadcasts the message received on this module's "in" gate
-         * to all other nodes in its range
+         * to all other nodes in its range.
          */
         virtual void handleMessage(cMessage *message) override;
 };
