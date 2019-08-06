@@ -18,6 +18,8 @@ void Vehicle::setSpeed(int speed)
 
 void Vehicle::handleMessage(cMessage *message)
 {
+    messagesReceived++;
+    
     if (message->isName("Red"))
         setSpeed(0);
     else if (message->isName("Yellow"))
