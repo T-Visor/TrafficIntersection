@@ -33,8 +33,9 @@ class Vehicle : public cSimpleModule
         virtual void handleMessage(cMessage *message) override;
 
         /**
-         * Displays the number of messages received and sent
-         * to this node along with its current speed.
+         * Displays a caption next to this node's icon in the simulation.
+         * The caption contains the number of messages sent and received
+         * along with the current speed.
          */
         virtual void refreshDisplay() const override;
 
