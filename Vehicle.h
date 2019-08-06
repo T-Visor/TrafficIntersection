@@ -22,7 +22,7 @@ class Vehicle : public cSimpleModule
 
         /**
          * Assigns this Vehicle's speed value based on the
-         * contents of the parameter
+         * contents of the parameter.
          */
         virtual void setSpeed(int speed);
 
@@ -34,13 +34,13 @@ class Vehicle : public cSimpleModule
 
         /**
          * Displays the number of messages received and sent
-         * to this node along with the current speed
+         * to this node along with its current speed.
          */
         virtual void refreshDisplay() const override;
 
     public:
         /**
-         * Construct a vehile with its speed at 50 mph
+         * Construct a vehicle with its speed at 50 mph.
          */
         Vehicle();
 };
