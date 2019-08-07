@@ -6,11 +6,7 @@
 
 void TrafficLight::initialize()
 {
-    const char* colors[] = {"Red", "Yellow", "Green"};
-
-    // select one of three colors for the message
-    int randNum = intuniform(0, 3);
-    cMessage *message = new cMessage(colors[randNum]);
+    cMessage *message = new cMessage("Red");
 
     for (int i = 0; i < gateSize("out"); ++i)
     {
