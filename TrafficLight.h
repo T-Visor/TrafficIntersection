@@ -18,8 +18,8 @@ class TrafficLight : public cSimpleModule
     protected:
         /**
          * Sends a message containing its current light state to nodes
-         * near the traffic intersection. The message will contain
-         * either 'Red', 'Yellow', or 'Green'.
+         * near the traffic intersection. The message will contain the color
+         * 'Red' in this example.
          */
         virtual void initialize() override;
 };
