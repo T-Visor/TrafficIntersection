@@ -28,16 +28,9 @@ class Vehicle : public cSimpleModule
 
         /**
          * Performs an action based on the message arriving at this
-         * Vehicle's gate. The message will contain one of three colors,
-         * 'Red', 'Yellow', or 'Green'.
-         *
-         * 'Red' will make this Vehicle to stop and set its speed
-         * value to 0.
-         *
-         * 'Yellow' will make the Vehicle clear the intersection by 
-         * speeding up and setting its speed value to 70.
-         *
-         * 'Green' will make the Vehicle maintain its current speed.
+         * Vehicle's gate. This Vehicle can handle messages containing
+         * the colors 'Red', 'Yellow', or 'Green' and will react 
+         * accordingly.
          */
         virtual void handleMessage(cMessage *message) override;
 
