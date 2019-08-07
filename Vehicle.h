@@ -27,8 +27,17 @@ class Vehicle : public cSimpleModule
         virtual void setSpeed(int speed);
 
         /**
-         * Performs an action according to the message arriving at this
-         * Vehicle's gate.
+         * Performs an action based on the message arriving at this
+         * Vehicle's gate. The message will contain one of three colors,
+         * "Red", "Yellow", or "Green".
+         *
+         * "Red" will make this Vehicle to stop and set its speed
+         * value to 0.
+         *
+         * "Yellow" will make the Vehicle clear the intersection by 
+         * speeding up and setting its speed value to 70.
+         *
+         * "Green" will make the Vehicle maintain its current speed.
          */
         virtual void handleMessage(cMessage *message) override;
 
@@ -41,7 +50,7 @@ class Vehicle : public cSimpleModule
 
     public:
         /**
-         * Construct a vehicle with its speed at 50 mph.
+         * Construct a vehicle with its speed set to 50 mph.
          */
         Vehicle();
 };
