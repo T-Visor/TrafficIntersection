@@ -11,6 +11,5 @@ void RelaySensor::handleMessage(cMessage *message)
         cMessage *messageCopy = message->dup();
         send(messageCopy, "out", i);
     }
-
     delete message;
 }
