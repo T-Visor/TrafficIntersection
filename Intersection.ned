@@ -47,12 +47,12 @@ network Intersection
         sensor.out++ --> Channel --> vehicles[3].in++;
 
 	// connect the traffic light to the vehicles
-        trafficLight.out++ --> Channel { @display("ls=red"); } --> vehicles[0].in++;
-        trafficLight.out++ --> Channel { @display("ls=green"); } --> vehicles[1].in++;
-        trafficLight.out++ --> Channel { @display("ls=red"); } --> vehicles[2].in++;
-        trafficLight.out++ --> Channel { @display("ls=green"); } --> vehicles[3].in++;
+        trafficLight.out++ --> Channel { @display("ls=blue"); } --> vehicles[0].in++;
+        trafficLight.out++ --> Channel { @display("ls=blue"); } --> vehicles[1].in++;
+        trafficLight.out++ --> Channel { @display("ls=blue"); } --> vehicles[2].in++;
+        trafficLight.out++ --> Channel { @display("ls=blue"); } --> vehicles[3].in++;
 
         // connect the traffic light to the relay sensor
-        trafficLight.out++ --> Channel { @display("ls=black"); } --> sensor.in;
+        trafficLight.out++ --> Channel { @display("ls=blue"); } --> sensor.in;
 }
 
