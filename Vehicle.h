@@ -22,7 +22,7 @@ class Vehicle : public cSimpleModule
 
         /**
          * Assigns this Vehicle's speed value based on the
-         * contents of the parameter.
+         * contents of the argument passed into this function.
          */
         virtual void setSpeed(int speed);
 
