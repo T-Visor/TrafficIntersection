@@ -9,4 +9,4 @@ In order for this simulation to work, all files (except for the .png screenshot)
 # Scenario details
 A traffic light will send a message to all four vehicles at the intersection instructing them to stop, the same message will also be sent to a relay sensor. The relay sensor will simply broadcast the same message out to the four vehicles.
 
-This scenario is not supposed to model anything meaningful, it is just a simple exercise which demonstrates some of features in OMNeT++.
+This scenario is not supposed to model anything meaningful, it is just a simple exercise which demonstrates some of the features in OMNeT++.
